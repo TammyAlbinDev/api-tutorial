@@ -1,4 +1,3 @@
-import pets from "../data.json";
 
 let button = document.getElementById("summarize-button");
 let output = document.getElementById("output");
@@ -10,4 +9,5 @@ function summarize(pet) {
 button.addEventListener("click", function () {
   output.textContent = summarize(pets[1]);
 });
+
 
